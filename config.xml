@@ -2,7 +2,7 @@
 <widget id="com.hybridapps.woocommerce" version="1.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Honeyshop</name>
   <description>
-    IHeerlijk eerlijke honing en overige bijenproducten!
+    Heerlijk eerlijke honing en overige bijenproducten!
   </description>
   <content src="index.html"/>
   <access origin="*"/>
@@ -24,23 +24,23 @@
 
 <icon src="icon.png" />
 
-<icon platform="android" qualifier="ldpi" src="res/icons/android/icon-36-ldpi.png" />
-<icon platform="android" qualifier="mdpi" src="res/icons/android/icon-48-mdpi.png" />
-<icon platform="android" qualifier="hdpi" src="res/icons/android/icon-72-hdpi.png" />
-<icon platform="android" qualifier="xhdpi" src="res/icons/android/icon-96-xhdpi.png" />
-<icon platform="android" qualifier="xxhdpi" src="res/icons/android/icon-144-xxhdpi.png" />
-<icon platform="android" qualifier="xxxhdpi" src="res/icons/android/icon-192-xxxhdpi.png" />
+<icon density="ldpi" src="res/icons/android/icon-36-ldpi.png" />
+<icon density="mdpi" src="res/icons/android/icon-48-mdpi.png" />
+<icon density="hdpi" src="res/icons/android/icon-72-hdpi.png" />
+<icon density="xhdpi" src="res/icons/android/icon-96-xhdpi.png" />
+<icon density="xxhdpi" src="res/icons/android/icon-144-xxhdpi.png" />
+<icon density="xxxhdpi" src="res/icons/android/icon-192-xxxhdpi.png" />
 
 <splash src="splash.png" />
 
-<splash platform="android" qualifier="land-hdpi" src="res/screens/android/screen-hdpi-landscape.png" />
-<splash platform="android" qualifier="land-ldpi" src="res/screens/android/screen-ldpi-landscape.png" />
-<splash platform="android" qualifier="land-mdpi" src="res/screens/android/screen-mdpi-landscape.png" />
-<splash platform="android" qualifier="land-xhdpi" src="res/screens/android/screen-xhdpi-landscape.png" />
-<splash platform="android" qualifier="port-hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
-<splash platform="android" qualifier="port-ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
-<splash platform="android" qualifier="port-mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
-<splash platform="android" qualifier="port-xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
+<splash density="land-hdpi" src="res/screens/android/screen-hdpi-landscape.png" />
+<splash density="land-ldpi" src="res/screens/android/screen-ldpi-landscape.png" />
+<splash density="land-mdpi" src="res/screens/android/screen-mdpi-landscape.png" />
+<splash density="land-xhdpi" src="res/screens/android/screen-xhdpi-landscape.png" />
+<splash density="port-hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
+<splash density="port-ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
+<splash density="port-mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
+<splash density="port-xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
 
   </platform>
   <platform name="ios">
