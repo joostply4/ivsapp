@@ -1,7 +1,7 @@
 <ion-view view-title='Product'>
     <ion-nav-title>{{product.title}}</ion-nav-title>
     <ion-nav-bar class="bar-stable nav-title-slide-ios7">
-    <ion-nav-back-button class="button-clear"><i class="icon ion-ios-arrow-back"></i></i> Back</ion-nav-back-button>
+    <ion-nav-back-button class="button-clear"><i class="icon ion-ios-arrow-back"></i></i> Terug</ion-nav-back-button>
     </ion-nav-bar>
     <ion-nav-buttons side="left">
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
@@ -49,13 +49,13 @@
             </div>
             <div class="item">
                 <label class="item item-input">
-                    <span class="input-label">Quantity:</span>
+                    <span class="input-label">Aantal:</span>
                     <form name="quantityForm" style="width:100%">
                     <input class='text-right' name="quantity" type="number" min="1" max="{{product.stock_quantity}}" ng-model='quantity.value' required>
                     </form>
                 </label>
                 <label style="padding:15px 0 0 15px; display:inline-block;" ng-if="product.stock_quantity">
-                    <span>Stock Quantity: <b>{{product.stock_quantity}}</b></span>
+                    <span>Voorraad: <b>{{product.stock_quantity}}</b></span>
                 </label>
                 
 <!--                 <div>
@@ -77,7 +77,7 @@
                 <div class='row'>
                     <div class="col text-left">
                         <button class='button button-positive' ng-click="toBasket()" ng-if="product" ng-disabled="!product.in_stock || (product.stock_quantity && (product.stock_quantity < quantity.value)) || !quantityForm.quantity.$valid">
-                            <i class="icon ion-ios-cart" style='margin-right: 4px'> </i> <span ng-if="product.in_stock && quantityForm.quantity.$valid">Add To Cart</span><span ng-if="!product.in_stock">Out of stock</span><span ng-if="!quantityForm.quantity.$valid">Invalid Quantity</span>
+                            <i class="icon ion-ios-cart" style='margin-right: 4px'> </i> <span ng-if="product.in_stock && quantityForm.quantity.$valid">In mandje</span><span ng-if="!product.in_stock">Uitverkocht</span><span ng-if="!quantityForm.quantity.$valid">Ongeldig aantal</span>
                         </button>
                     </div>
                     <div class="col text-right">
